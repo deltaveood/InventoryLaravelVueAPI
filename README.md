@@ -11,4 +11,9 @@ Drawings and Transmittal form.
 This part keeps record for the lates darwing, history of the drawing, revisions, version, transmittal history.
 Tables used: drawing(project_id, part_id...), project, part, 
 drawingdet(drawing_id, version, revision...), drawingfile(drawingdet_id...), 
-drawingtransmittal  and drawingdet (many to many wiht pivot tabel drawingdet_drawingtransmittal)
+drawingtransmittal  and drawingdet (many to many wiht pivot tabel drawingdet_drawingtransmittal).information 
+
+Task
+Task for specific project, structure,substructure, subcontractor, description, ....planned finish, actual finish.
+tables Task, Task_pics (one to many), one to one relationships with  project, structure,substructure, subcontractor.
+Tasks displayed with pictures.
